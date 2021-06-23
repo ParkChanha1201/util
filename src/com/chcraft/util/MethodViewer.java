@@ -31,8 +31,8 @@ public class MethodViewer {
 	}
 
 	/***
-	 * invoke all methods(with no parameter) in target and return result.
-	 * @return result string
+	 * invoke all methods(with no parameter) in target
+	 * @return result of invoking methods.
 	 */
 	public String invokeAll() {
 		StringBuilder parameterResult = new StringBuilder("-Methods with parameters(it will not invoke)\n");
